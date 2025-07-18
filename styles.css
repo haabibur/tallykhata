@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+}
+.app {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.title {
+  text-align: center;
+  color: #333;
+}
+.entry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.entry-form input,
+.entry-form select,
+.entry-form button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.entry-list {
+  margin-top: 20px;
+}
+.entry {
+  padding: 10px;
+  border-left: 5px solid;
+  margin-bottom: 10px;
+  background: #fafafa;
+}
+.entry.income {
+  border-color: green;
+}
+.entry.expense {
+  border-color: red;
+}
